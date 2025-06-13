@@ -7,23 +7,23 @@ const Landingpage = () => {
   return (
     <div className='bg-white shadow-md'>
       {/* Navbar Section */}
-      <div className='container mx-auto flex justify-between items-center py-10 px-10 overflow-hidden'>
-  <div className="w-40 h-20"> {/* Adjust width and height as needed */}
-    <img
-      src={ewastelogo}
-      alt="Ewaste Logo"
-      className='w-full h-full object-contain'
-    />
-  </div>
-  
-  <div className='flex space-x-8 text-lg'>
-    <a href="#" className='text-[#133700] hover:text-green-600'>Home</a>
-    <a href="#" className='text-[#133700] hover:text-green-600'>Our Services</a>
-    <a href="#" className='text-[#133700] hover:text-green-600'>Blog</a>
-    <a href="#" className='text-[#133700] hover:text-green-600'>About Us</a>
-    <a href="#" className='text-[#133700] hover:text-green-600'>Contact Us</a>
-  </div>
-</div>
+      {/* <div className='container mx-auto flex justify-between items-center py-10 px-10 overflow-hidden'>
+        <div className="w-40 h-20"> 
+          <img
+            src={ewastelogo}
+            alt="Ewaste Logo"
+            className='w-full h-full object-contain'
+          />
+        </div>
+
+        <div className='flex space-x-8 text-lg'>
+          <a href="#" className='text-[#133700] hover:text-green-600'>Home</a>
+          <a href="#" className='text-[#133700] hover:text-green-600'>Our Services</a>
+          <a href="#" className='text-[#133700] hover:text-green-600'>Blog</a>
+          <a href="#" className='text-[#133700] hover:text-green-600'>About Us</a>
+          <a href="#" className='text-[#133700] hover:text-green-600'>Contact Us</a>
+        </div>
+      </div> */}
 
 
       {/* Image with centered heading */}
@@ -54,5 +54,5 @@ const Landingpage = () => {
   )
 }
 
-export default Landingpage;
+export default Landingpage
 

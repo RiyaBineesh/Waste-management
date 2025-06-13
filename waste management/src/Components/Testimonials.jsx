@@ -62,7 +62,7 @@ const Testimonials = () => {
                             <img
                                 src={image}
                                 alt={name}
-                                className="w-50 h-50 object-cover rounded-full border-10 border-white shadow-sm"
+                                className="w-50 h-50 object-cover rounded-full h-50px border-10 border-white shadow-sm"
                             />
                         </div>
                         <p className="text-gray-700 mb-4 text-sm">{text}</p>

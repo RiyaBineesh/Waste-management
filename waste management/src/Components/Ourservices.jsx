@@ -7,8 +7,10 @@ import ewaste4 from '../assets/ewaste4.jpg';
 import ewaste5 from '../assets/ewaste5.jpg';
 import ewaste6 from '../assets/ewaste6.jpg';
 import { ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Ourservices = () => {
+  const navigate = useNavigate();
   const services = [
     {
       id: 1,
@@ -80,6 +82,11 @@ const Ourservices = () => {
 
 
       </div>
+      <button onClick={() => navigate('/Ourservicesdetailed')} className="block ml-auto flex items-center text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 group">
+        <span className="text-[#133700]">More</span>
+        <ArrowRight />
+      </button>
+
     </div>
   )
 }

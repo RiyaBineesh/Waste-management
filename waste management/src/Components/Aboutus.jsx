@@ -54,6 +54,7 @@ const AboutUs = () => {
                     </svg>
                 </div>
             </div>
+
         </div>
     )
 }
